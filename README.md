@@ -74,3 +74,7 @@ The backend server will run at http://localhost:5000
 
 ---
 
+🧑‍💻 Author
+
+L Saini Patro
+Built as part of a practical backend development project using Node.js, Express, and MongoDB.
