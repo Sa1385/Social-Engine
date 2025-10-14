@@ -43,14 +43,34 @@ JWT_SECRET=your_secret_key
 ---
 
 ---
----
-
-## 🧰 **Run Locally**
+🧰 Run Locally
 
 To run the backend server on your local machine:
 
-### Steps:
+Steps:
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/Social-Engine.git
+Clone the repository
+
+git clone https://github.com/your-username/Social-Engine.git
+
+
+Navigate to the project directory
+
+cd Social-Engine
+
+
+Install dependencies
+
+npm install
+
+
+Start the server
+
+npm start
+
+
+The backend server will run at http://localhost:5000
+
+
+---
+
