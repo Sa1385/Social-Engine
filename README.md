@@ -40,7 +40,7 @@ PORT=5000
 MONGO_URI=your_mongodb_atlas_connection_string
 JWT_SECRET=your_secret_key
 
-🧰 Run Locally
+##  🧰 Run Locally
 
 # Clone the repository
 git clone https://github.com/your-username/Social-Engine.git
