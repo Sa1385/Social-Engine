@@ -40,8 +40,14 @@ PORT=5000
 MONGO_URI=your_mongodb_atlas_connection_string
 JWT_SECRET=your_secret_key
 
-##  🧰 Run Locally
+---
+---
 
+## 🧰 **Run Locally**
+
+To run the backend server on your local machine:
+
+```bash
 # Clone the repository
 git clone https://github.com/your-username/Social-Engine.git
 
@@ -53,3 +59,4 @@ npm install
 
 # Start the server
 npm start
+
