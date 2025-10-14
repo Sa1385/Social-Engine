@@ -1,6 +1,55 @@
-🧠 Social Engine — RESTful Social Media API
+# 🧠 Social Engine API
 
-🚀 Overview
+A RESTful backend API built with **Node.js**, **Express**, and **MongoDB (Mongoose)** for a social networking platform.  
+It includes authentication (JWT), post & comment management, tag handling, notifications, and WebSocket (Socket.io) integration.
 
-Social Engine is a scalable and modular RESTful API built using Node.js, Express, and MongoDB (Mongoose).
-It provides core social media functionalities — authentication, posts, comments, tags, and notifications — all secured using JWT-based authentication.
+---
+
+## 🚀 Features
+
+- 🔐 **User Authentication** – Register, Login using JWT  
+- 🏷️ **Tag Management** – Create and fetch tags  
+- 📝 **Post System** – Create, view, and upvote/downvote posts  
+- 💬 **Comment System** – Nested replies for each post  
+- 🔔 **Real-time Notifications** – Implemented with Socket.io  
+- 🗄️ **MongoDB Atlas** – Hosted cloud database  
+- ☁️ **Render Deployment Ready**
+
+---
+
+## 🧩 Tech Stack
+
+- **Backend Framework:** Express.js  
+- **Database:** MongoDB Atlas (Mongoose ODM)  
+- **Authentication:** JWT (JSON Web Tokens)  
+- **Realtime:** Socket.io  
+- **Environment Management:** dotenv  
+- **Deployed On:** Render
+
+---
+
+
+---
+
+## ⚙️ Environment Variables
+
+Create a `.env` file in the project root for local development:
+
+```bash
+PORT=5000
+MONGO_URI=your_mongodb_atlas_connection_string
+JWT_SECRET=your_secret_key
+
+🧰 Run Locally
+
+# Clone the repository
+git clone https://github.com/your-username/Social-Engine.git
+
+# Go to project directory
+cd Social-Engine
+
+# Install dependencies
+npm install
+
+# Start the server
+npm start
