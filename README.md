@@ -28,26 +28,6 @@ A Node.js + Express.js + MongoDB backend for a social platform where users can r
 
 ---
 
-## 📁 Project Structure
-
-```
-Social-Engine/
-│
-├── index.js               # Entry point
-├── config/
-│   └── db.js              # Database connection setup
-├── models/
-│   ├── User.js
-│   ├── Post.js
-│   └── Comment.js
-├── routes/
-│   ├── auth.js
-│   ├── posts.js
-│   └── comments.js
-├── middleware/
-│   └── authMiddleware.js
-└── .env                   # Environment variables
-```
 
 ---
 
@@ -149,9 +129,6 @@ Server will start at 👉 [http://localhost:5000](http://localhost:5000)
 ## 🧑‍💻 Author
 
 **L Saini Patro**  
-📍 Bengaluru, India  
-📧 [your-email@example.com](mailto:your-email@example.com)  
-🌐 [GitHub Profile](https://github.com/Sa1385)  
 
 ---
 
